@@ -1,0 +1,8 @@
+PHP学习笔记
+
+1. PHP开发环境：本次学习过程中使用的WAMP
+2. Apache配置：开启virtualhost，httpd.conf中Allow All
+3. PHP扩展开启pdo_mysql，由于项目中使用NotDOM框架，NotDOM需要调用PDO函数
+4. PHP语法
+5. require和include的区别：require会检查语法
+6. PHP中class名也应该对应文件名
