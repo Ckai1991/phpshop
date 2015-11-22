@@ -1,0 +1,7 @@
+ <ifmodule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteRule ^([a-z]{2,10})/(\w{3,20}) /index.php?control=$1&action=$2
+
+
+  </ifmodule>

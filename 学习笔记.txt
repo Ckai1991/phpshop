@@ -6,3 +6,4 @@ PHP学习笔记
 4. PHP语法
 5. require和include的区别：require会检查语法
 6. PHP中class名也应该对应文件名
+7. PHP中global的具体用法
