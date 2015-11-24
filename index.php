@@ -3,6 +3,7 @@ include "my.conf";
 
 $get_control = isset($_GET["control"])?trim($_GET["control"]):"index";
 $get_action = isset($_GET["action"])?trim($_GET["action"]):"index";
+phpinfo();
 
 if(file_exists("MVC/C/".$get_control.".c")){
 	require("MVC/C/".$get_control.".c");
